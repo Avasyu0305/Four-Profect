@@ -1,0 +1,114 @@
+body{
+
+    font-family: Arial, sans-serif;
+
+    margin:20px;
+
+}
+
+.container{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+table{
+
+    border-collapse:collapse;
+
+    width:33%;
+
+    font-size:12px;
+
+}
+
+th{
+
+    background:#333;
+
+    color:white;
+
+    text-align:left;
+
+    padding:5px;
+
+}
+
+td{
+
+    border:1px solid #999;
+
+    padding:4px;
+
+}
+
+.section{
+
+    background:#444;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+            .button {
+                display: inline-block;
+                background-color: red;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+            .button:hover {
+                background-color: darkred;
+            }
+            /* 1. Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Style the main navigation container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, links to right */
+  align-items: center;            /* Centers items vertically */
+  background-color: #333;         /* Dark background */
+  padding: 15px 30px;
+  font-family: sans-serif;
+}
+
+/* 3. Style the logo text */
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 4. Turn the vertical list horizontal */
+.nav-links {
+  display: flex;
+  list-style: none; /* Removes bullet points */
+}
+
+/* 5. Add spacing between the items */
+.nav-links li {
+  padding: 0 20px;
+}
+
+/* 6. Style the actual clickable links */
+.nav-links a {
+  color: #fff;
+  text-decoration: none; /* Removes the default underline */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* 7. Change link color when hovering */
+.nav-links a:hover {
+  color: #263f98; /* Accent green color */
+}

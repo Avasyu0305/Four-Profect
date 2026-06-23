@@ -1,0 +1,134 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #333;
+  border-bottom: 2px solid red;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.deal-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+
+.deal-card img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.deal-card-content h3 {
+  margin-top: 0;
+  color: #0056b3;
+}
+
+.deal-card-content p {
+  margin-bottom: 5px;
+}
+
+.button {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: darkred;
+}
+
+/* 1. Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Style the main navigation container */
+.navbar {
+  position: sticky;
+  top: 0.5px;
+  display: flex;
+  justify-content: space-between;
+  /* Pushes logo to left, links to right */
+  align-items: center;
+  /* Centers items vertically */
+  background-color: #333;
+  /* Dark background */
+  padding: 15px 30px;
+  font-family: sans-serif;
+}
+
+/* 3. Style the logo text */
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 4. Turn the vertical list horizontal */
+.nav-links {
+  display: flex;
+  list-style: none;
+  /* Removes bullet points */
+}
+
+/* 5. Add spacing between the items */
+.nav-links li {
+  padding: 0 20px;
+}
+
+/* 6. Style the actual clickable links */
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  /* Removes the default underline */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+/* 7. Change link color when hovering */
+.nav-links a:hover {
+  color: #263f98;
+  /* Accent green color */
+}
+
+.review {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+}
